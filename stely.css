@@ -137,7 +137,7 @@ button:hover {
     border-radius: 20px;
 }
 .expane__txt {
-    width: 40%;
+    width: 50%;
 }
 .expane__1 {
     background-color: lightgray;
@@ -192,6 +192,7 @@ button:hover {
 .expane__h {
     font-size: 40px;
 }
+
 
 
 

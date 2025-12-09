@@ -103,6 +103,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
+    justify-content: center;
 }
 .a__txt:hover {
     color: #CBDEFF;
@@ -192,6 +193,7 @@ button:hover {
 .expane__h {
     font-size: 40px;
 }
+
 
 
 

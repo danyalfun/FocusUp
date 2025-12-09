@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
+     margin-top: 30px;
     background: linear-gradient(to right,#0A2B79,#28345C);
 }
 .a__txt {
@@ -191,6 +192,7 @@ button:hover {
 .expane__h {
     font-size: 40px;
 }
+
 
 
 

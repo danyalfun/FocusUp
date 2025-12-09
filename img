@@ -2,3 +2,9 @@ mkdir img
 git add .
 git commit -m "Added new folder"
 git push
+project/
+  images/
+    mypic.png
+
+
+   

@@ -193,6 +193,10 @@ button:hover {
 .expane__h {
     font-size: 40px;
 }
+.mdia__icon{
+    transform: scale(1.02);
+    border: 2px solid black;
+}
 
 
 

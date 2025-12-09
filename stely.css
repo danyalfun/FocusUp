@@ -4,6 +4,8 @@
     border-radius: 20px;
      margin-top: 30px;
     background: linear-gradient(to right,#0A2B79,#28345C);
+     align-items: center;
+     height: 70px;
 }
 .a__txt {
     text-decoration: none;
@@ -40,9 +42,7 @@ body {
     height: 102.1px;
     border-radius: 20px;
 }
-nav {
-    margin-top: 20%;
-}
+
 ul {
     padding: 10px;
     margin: 0;
@@ -193,6 +193,7 @@ button:hover {
 .expane__h {
     font-size: 40px;
 }
+
 
 
 

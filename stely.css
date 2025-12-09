@@ -195,8 +195,10 @@ button:hover {
 }
 .mdia__icon{
     transform: scale(1.02);
-    border: 2px solid black;
+    border: 1.5px solid black;
+     border-radius: 50%;
 }
+
 
 
 

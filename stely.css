@@ -13,9 +13,9 @@
     font-size: 16px;
 }
 .container {
-    width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
+    width: 60%;
+    max-width: 1500px;
 }
 nav ul {
     list-style: none;
@@ -197,6 +197,7 @@ button:hover {
     transform: scale(1.02);
     border: 2px solid black;
 }
+
 
 
 

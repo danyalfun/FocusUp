@@ -192,6 +192,42 @@ button:hover {
 .expane__h {
     font-size: 40px;
 }
+.explen2__img{
+    width: 350px;
+    height: 300px;
+    
+    border-radius: 20px;
+}
+.emxplen2 {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.explen2__worp {
+    display: flex;
+    gap: 50px;
+}
+.explen2__sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+footer{
+    margin-top: 50px;
+}
+button :paused {
+    transform: scale(1.03);
+}
+
+
+
+
 
 
 

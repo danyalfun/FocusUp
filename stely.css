@@ -1,247 +1,115 @@
-.header__worp {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px;
-    margin-top: 30px;
-    background: linear-gradient(to right,#0A2B79,#28345C);
-    align-items: center;
-    height: 110px;
-}
+<!DOCTYPE html>
 
-.a__txt {
-    text-decoration: none;
-    color: #A7B1C2;
-    font-size: 16px;
-}
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stely.css">
+    <title>FocusUp</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__worp">
+                
+                <div class="header__logo">
+                    <a href="index.html"><img class="img__logo" src="img/FocusUp_icon.png" alt="Logo" /></a>
+                </div>
+                <div class="header__nav">
+                    <nav>
+                        <ul>
+                            <li><a class="a__txt"  href="index.html">Home</a></li>
+                            <li><a class="a__txt" href="about.html">About</a></li>
+                            <li><a class="a__txt" href="contacts.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__page">
+                    <div class="hero__img">
+                        <img class="img__hero" src="img/hero.jpeg" alt="hero img" />
+                    </div>
+                    <div class="hero__text">
+                        <h2 class="hero__h">mange time is easy</h2>
+                        <p class="hero__p">if you came uese ase you will managmant yor time bater and levle up it gona be fun </p>
+                        <button class="sing__in">sing in</button>
+                        <button class="log__in">log in</button>
+                    </div>
+                </div>>
+            </div>
+        </section>
 
-.container {
-    margin: 0 auto;
-    width: 60%;
-    max-width: 1500px;
-}
+        <section class="expane__1" id="expane__1">
+            <div class="container">
+                <div class="expane__h">
+                    <h2>Discover the features that make Jira so easy to use</h2>
+                </div>
+                <div class="expane__worp">
+                    <div class="expane__txt">
+                        <div class="expane__txth">
+                            <h4>Powerful agile boards</h4>
+                        </div>
+                        <div class="expane__p">
+                            <p class="expane__p1">Scrum boards: Scrum boards help agile teams break large, complex projects into manageable pieces of work so focused teams ship faster.</p>
+                            <p class="expane__p2">Kanban boards: Agile and DevOps teams can use flexible kanban boards to visualize workflows, limit work-in-progress, and maximize efficiency as a team. Templates make it easy to get started quickly and customize as you go.</p>
+                            <p class="expane__p3">Choose your own adventure: Jira is flexible enough to mold to your team’s own unique way of working, whether it is Scrum, Kanban, or something in between.</p>
+                        </div>
+                    </div>
+                    <div class="explen__imgs">
+                        <div class="explen__img1">
+                            <img class="explen__img1" src="img/explen_1.png" alt="explane img" />
+                        </div>
+                        <div class="explen__img2">
+                            <img class="explen__img2" src="img/explen_2.png" alt="explane img" />
+                        </div>
+                        <div class="explen__img3">
+                            <img class="explen__img3" src="img/explen_3.png" alt="explane img" />
+                        </div>
+                        <div class="explen__img4">
+                            <img class="explen__img4" src="img/explen_4.png" alt="explane img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-footer {
-    background: linear-gradient(to right,#28345C,#A7B1C2);
-    text-align: center;
-    padding: 20px 0;
-}
-
-main {
-    flex: 1;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-}
-
-.img__logo {
-    width: 102.1px;
-    height: 102.1px;
-    border-radius: 20px;
-}
-
-ul {
-    padding: 10px;
-    margin: 0;
-    text-decoration: none;
-}
-
-.hero {
-    min-height: 600px;
-    background: linear-gradient(to right,#28345C,#A7B1C2)
-}
-
-header {
-    background: linear-gradient(to right,#28345C,#A7B1C2)
-}
-
-h2 {
-    margin-top: 0;
-}
-
-.hero__h {
-    font-size: 70px;
-    color: #A7B1C2;
-}
-
-.hero__p {
-    font-size: 35px;
-    color: #A7B1C2;
-}
-
-.log__in {
-    background-color: #0A2B79;
-    border: none;
-    color: #A7B1C2;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 40px;
-    margin-top: 20%;
-
-}
-
-.sing__in {
-    background-color: #0A2B79;
-    border: none;
-    color: #A7B1C2;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 40px;
-    margin-top: 20%;
-}
-
-.hero__page {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
-
-.img__hero {
-    height: 50vh;
-    width: auto;
-}
-
-.mdia__icon {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
-}
-
-.footer__worp {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px;
-    justify-content: center;
-}
-
-.a__txt:hover {
-    color: #CBDEFF;
-    border: 2px solid #CBDEFF;
-    border-radius: 20px;
-    padding: 5px;
-}
-
-button:hover {
-    background-color: #28345C;
-    transform: scale(1.03);
-    border: 2px solid #A7B1C2;
-}
-
-.img__logo:hover {
-    transform: scale(1.03);
-}
-
-.expane__worp {
-    display: flex;
-}
-
-.explen__imgs {
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-}
-
-.explen__img4 {
-    width: 430px;
-    height: 340px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-.expane__txt {
-    width: 50%;
-}
-
-.expane__1 {
-    background-color: lightgray;
-    border: 2px solid black;
-    min-height: 70vh;
-}
-
-.explen__img1 {
-    width: 430px;
-    height: 340px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-.explen__img2 {
-    width: 430px;
-    height: 340px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-.explen__img3 {
-    width: 430px;
-    height: 340px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-.explen__img1:hover {
-    transform: scale(1.02);
-}
-
-.explen__img2:hover {
-    transform: scale(1.02);
-}
-
-.explen__img3:hover {
-    transform: scale(1.02);
-}
-
-.explen__img4:hover {
-    transform: scale(1.02);
-}
-
-.expane1__li {
-    font-size: 30px;
-    margin-top: 35px;
-    text-decoration: none;
-}
-
-
-.expane__txth{
-    font-size: 40px;
-}
-
-
-
-.expane__h {
-    font-size: 40px;
-}
-
-.mdia__icon {
-    border: 1.5px solid black;
-    border-radius: 50%;
-}
-.mdia__icon :hover {
-    transform: scale(1.05);
-    border: 2px solid black;
-    border-radius: 50%;
-}
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 250px;
-}
-.explane__warp {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
+        <section class="section" id="section3">
+            <div class="container">
+                <h2>Section 3</h2>
+                <p>Text for the third section.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__worp">
+                <div class="header__logo">
+                    <a href="index.html"><img class="img__logo" src="img/FocusUp.png" alt="Logo" /></a>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul>
+                            <li><a class="a__txt" href="index.html">Home</a></li>
+                            <li><a class="a__txt" href="about.html">About</a></li>
+                            <li><a class="a__txt" href="contacts.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div>
+                <p>my sotiol:</p>
+                <div>
+                    <a class="a__txt" href="https://www.facebook.com/"><img class="mdia__icon" src="img/facebook.png" alt="facebook" /></a>
+                    <a class="a__txt" href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en-GB"><img class="mdia__icon" src="img/instagram.png" alt="instagram" /></a>
+                    <a class="a__txt" href="https://www.youtube.com/"><img class="mdia__icon" src="img/youtube.png" alt="youtube" /></a>
+                </div>
+                <p>© 2025 My Website. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

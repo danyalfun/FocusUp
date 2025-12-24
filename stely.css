@@ -221,18 +221,33 @@ main {
 footer{
     margin-top: 50px;
 }
-button :paused {
-    transform: scale(1.05);
+
+.explen3__img {
+    width: 102.1px;
+    height: 102.1px;
+    border-radius: 20px;
 }
-button {
-    background-color: #0A2B79;
-    border: none;
-    color: #A7B1C2;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
+.explen3__worp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-r
+.explen3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.like {
+    border-radius: 20px;
+    height: 34px;
+    width: 64px;
+    background-color: lightgray;
+    border-color: lightgray;
+}
+.explen2__sub {
+    align-items: center;
+}
+
 
 
 

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="stely.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__worp">
+
+                <div class="header__logo">
+                    <img class="img__logo" src="img/FocusUp_icon.png" alt="Logo" />
+                </div>
+                <div class="header__nav">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="contents">
+                <h1>contacts:</h1>
+                <h2>Tel:</h2>
+                <p>0524443373</p>
+                <h2>Email:</h2>
+                <p>danyal.fun@gmail.com</p>
+                <h2>my sotiol:</h2>
+                <div>
+                    <a class="a__txt" href="https://www.facebook.com/"><img class="mdia__icon" src="img/facebook.png" alt="facebook" /></a>
+                    <a class="a__txt" href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en-GB"><img class="mdia__icon" src="img/instagram.png" alt="instagram" /></a>
+                    <a class="a__txt" href="https://www.youtube.com/"><img class="mdia__icon" src="img/youtube.png" alt="youtube" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <form id="newArticleForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="הכנס שם" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="name@example.con">
+
+                <label for="tel" >Tel:</label>
+                <input type="tel" name="phone" id="tel" pattern="^\+?\d{7,15}$" placeholder="+972501234567">
+
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="5" required></textarea>
+                <div class="buttons">
+                    <button type="submit" id="save" class="save-btn">Save</button>
+                    <button type="button" id="closePopupBtn" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+<script  src="js.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-.header__worp {
+﻿.header__worp {
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
@@ -248,7 +248,47 @@ footer{
     align-items: center;
 }
 
-
+#newArticleFormBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.buttons button{
+    cursor: pointer;
+}
+form {
+  width: 300px;
+  margin: 0 auto; /* למרכז את הטופס */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+}
+label {
+  display: block; /* כל תווית בשורה נפרדת */
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box; /* שומר על גודל אחיד */
+  font-size: 16px;
+}
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none; /* הסרת המסגרת הכחולה */
+  box-shadow: 0 0 5px #007bff;
+}
+.container{
+    text-align: center;
+}
 
 
 

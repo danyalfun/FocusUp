@@ -34,3 +34,4 @@ app.post("/post", (req, res) => {
 app.listen(port, () => {
     console.log(`השרת רץ: http://localhost:${port}`);
 });
+// i cant uplod the all be folder because of mulsh node 
